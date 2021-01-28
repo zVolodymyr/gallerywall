@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Gallery Wall</string>
+    <string name="app_name" translatable="false">GalleryWall</string>
 
     <string name="title_settings">Settings</string>
 

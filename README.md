@@ -27,3 +27,7 @@ api_pixabay=<your api key>
 
 * [4pda](http://4pda.ru/forum/index.php?showtopic=158065&st=2660#entry29540977) - 21/02/2014
 * [http://androidforums.com](https://androidforums.com/threads/free-automation-wallpaper-switcher.831706/#post6458208) - 25/02/2014
+* https://www.reddit.com/r/AppHunt/comments/l66fjs/gallerywall_automated_wallpaper/
+* https://www.reddit.com/r/fossdroid/comments/l66has/apache_20_gallerywall_opensourced_automated/
+* https://www.reddit.com/r/androidapps/comments/l628f4/gallerywall_opensourced_automated_wallpaper_app/
+* 
