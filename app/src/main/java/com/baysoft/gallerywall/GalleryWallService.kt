@@ -31,6 +31,7 @@ class GalleryWallService : JobService() {
 
     companion object {
         const val CHANNEL_ID = "_gallerywall"
+        const val UPDATE_ACTION = "_gallerywall::update"
         const val NOTIFICATION_ID = 1
 
         // Create the NotificationChannel, but only on API 26+ because
@@ -141,6 +142,10 @@ class GalleryWallService : JobService() {
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
+        if (intent?.action == UPDATE_ACTION) {
+            showNotification();
+        }
+
         // return super.onStartCommand(intent, flags, startId)
         return START_NOT_STICKY
     }
